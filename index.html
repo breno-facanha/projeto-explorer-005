@@ -52,7 +52,7 @@
 
             <div class="form-geral">
                 <label for="info-senha">Senha <span>(mínimo de 6 caracteres)</span></label>
-                <input 
+                <input class="input-senha"
                     type="password"
                     minlength="6"
                     id="info-senha"
@@ -61,6 +61,68 @@
 
             <legend>INFORMAÇÕES DO MENTOR</legend>
             <div class="linha"></div>
+
+            <div class="form-geral">
+                <label for="info-nome-mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+                <input class="input-nome-mentor" type="text" id="info-nome-mentor">
+            </div>
+
+            
+            <legend>Seus horários disponíveis</legend>
+            <div class="linha"></div>
+
+            <div class="horarios-dsponiveis">
+                
+
+                <div class="primeira-mentoria">
+                    <p>
+                        PRIMEIRA MENTORIA
+                    </p>
+                    <label for="primeira-data"> Data <span>(DD/MM/AA)</span></label>
+                    <input type="date" id="primeira-data">
+                </div>
+
+                <div class="horarios-teste">
+
+                    <div class="horario-das">
+                        <label for="primeira-das">Das</label>
+                        <input type="time" id="primeira-das" >
+                    </div>
+
+                    <div class="horario-ate">
+                        <label for="primeira-ate">Até</label>
+                        <input type="time" id="primeira-ate">
+                    </div>
+
+             </div>
+
+            </div>
+
+            <div class="horarios-dsponiveis-2">
+                
+                
+                <div class="primeira-mentoria">
+                    <p>
+                        SEGUNDA MENTORIA
+                    </p>
+                    <label for="segunda-data"> Data <span>(DD/MM/AA)</span></label>
+                    <input type="date" id="segunda-data">
+                </div>
+
+                <div class="horarios-teste">
+
+                    <div class="horario-das">
+                        <label for="segunda-das">Das</label>
+                        <input type="time" id="segunda-das" >
+                    </div>
+
+                    <div class="horario-ate">
+                        <label for="segunda-ate">Até</label>
+                        <input type="time" id="segunda-ate">
+                    </div>
+                </div>
+
+            </div>
 
         </div>
 
