@@ -71,7 +71,7 @@ legend{
 .formulario-caixa{
     width: 750px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     padding: 64px;
 }
 
@@ -151,6 +151,10 @@ legend{
     align-items: flex-end;
 }
 
+.horarios-dsponiveis input, .horarios-dsponiveis-2 input{
+    height: 56px;
+}
+
 .primeira-mentoria span{
     font-size: 12px;
     line-height: 20px;
@@ -159,6 +163,7 @@ legend{
 
 .primeira-mentoria input{
     margin-top: 8px;
+    margin-right: 32px;
     width: 300px;
     border-radius: 8px;
     border: 1px solid #E6E6F0;
@@ -199,4 +204,39 @@ legend{
 
 .horarios-dsponiveis-2{
     margin-top: 16px;
+}
+
+
+.horarios-dsponiveis .horario-das{
+    margin-right: 10px;
+}
+
+.horarios-dsponiveis-2 .horario-das{
+    margin-right: 10px;
+}
+
+footer{ 
+    height: 160px ;
+    background-color: #535971 ;
+    border-radius: 0 0 20px 20px ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer button{ 
+    padding: 15px 40px;
+    width: 608px;
+    height: 56px;
+
+    background: #FF5374;
+    border-radius: 20px;
+    
+    border: 0;
+
+    font-family: 'Staatliches', cursive;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 26px
 }
