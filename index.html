@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page">
+    <header>
+        <div>
+            <h1>Mentoria</h1>
+            <p>
+                Preencha o formulário abaixo para agendar a sua mentoria
+            </p>
+        </div>
+
+    </header>
+
+    <div class="testecenter">
+    <form>
+
+        <div class="formulario-caixa">
+            <legend>INFORMAÇÕES PESSOAIS</legend>
+            <div class="linha"></div>
+
+
+            <div class="nomeSobrenome">
+
+                <div id="nome" class="form-geral">
+                    <label for="info-nome">Nome</label>              
+                    <input type="text" id="info-nome">
+                </div>
+                
+                <div id="sobrenome" class="form-geral">             
+                    <label for="info-sobrenome">Sobrenome</label>
+                    <input type="text" id="info-sobrenome">
+                </div>
+
+            </div>
+
+            <div class="form-geral">
+                <label for="info-email">Email <span>(digite um email valido)</span></label>
+                <input type="text" id="info-email">
+            </div>
+
+            <div class="form-geral">
+                <label for="info-senha">Senha <span>(mínimo de 6 caracteres)</span></label>
+                <input 
+                    type="password"
+                    minlength="6"
+                    id="info-senha"
+                >
+            </div>
+
+            <legend>INFORMAÇÕES DO MENTOR</legend>
+            <div class="linha"></div>
+
+        </div>
+
+        
+    </form>
+    </div>
+
+    <footer>
+
+    </footer>
+
+    </div>
+</body>
+</html>
